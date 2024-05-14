@@ -12,7 +12,7 @@ The guidance of the data preprocessing is coming soon!
 
 ## Citation
 If this work is helpful to you, please cite it as:
-'''
+```
 @article{qu2024rise,
   title={The rise of ai language pathologists: Exploring two-level prompt learning for few-shot weakly-supervised whole slide image classification},
   author={Qu, Linhao and Fu, Kexue and Wang, Manning and Song, Zhijian and others},
@@ -20,7 +20,7 @@ If this work is helpful to you, please cite it as:
   volume={36},
   year={2024}
 }
-'''
+```
 
 ## Acknowledgement
 We sincerely thank [CoOp](https://github.com/KaiyangZhou/CoOp) for their inspiration and contributions to the codes.
