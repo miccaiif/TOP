@@ -11,12 +11,16 @@ The guidance of the data preprocessing is coming soon!
   Hello! Thanks for your attention. The data split for few-shot experiments is controlled by "random seed" directly in the code, e.g. the seed in exp_CAMELYON.sh. We did not manually split the dataset because of the inconvenience. And in specific shots, the experimental settings between different methods are the same. You could benchmark the dataset using the seed by yourself, and maintain that setting to implement various comparison methods. Also, the few-shot WSI classification indeed needs a benchmark dataset, and that is our future direction.
 
 ## Citation
-We sincerely thank [CoOp](https://github.com/KaiyangZhou/CoOp) for their inspiration and contributions to the codes.
-More information could be referred to the following helpful works:
-[DGMIL](https://github.com/miccaiif/DGMIL)
-[WENO](https://github.com/miccaiif/WENO)
-[DSMIL](https://github.com/binli123/dsmil-wsi)
-[CLAM](https://github.com/mahmoodlab/CLAM).
+If this work is helpful to you, please cite it as:
+'''
+@article{qu2024rise,
+  title={The rise of ai language pathologists: Exploring two-level prompt learning for few-shot weakly-supervised whole slide image classification},
+  author={Qu, Linhao and Fu, Kexue and Wang, Manning and Song, Zhijian and others},
+  journal={Advances in Neural Information Processing Systems},
+  volume={36},
+  year={2024}
+}
+'''
 
 ## Acknowledgement
 We sincerely thank [CoOp](https://github.com/KaiyangZhou/CoOp) for their inspiration and contributions to the codes.
